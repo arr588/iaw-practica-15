@@ -44,3 +44,6 @@ curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compo
 
 # Asignamos permisos de ejecución al archivo
 chmod +x /usr/local/bin/docker-compose
+
+# Levantamos Docker-Compose
+docker-compose up -d
